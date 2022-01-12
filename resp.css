@@ -1,0 +1,300 @@
+@media (max-width:600px){
+    .navbaby .logo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbaby .logo img{
+        width: 12vw;
+    }
+    .navbaby ul.damn{
+        display: none;
+        background: red;
+    }
+    .navbaby ul{
+        /* display: block; */
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        right: 130%;
+    }
+    .navbaby ul a{
+        font-size: 13px;
+    }
+    .burger{
+        display: block;
+        /* display: flex; */
+        right: 15%;
+    }
+    .sec_1{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .sec_1 ._1{
+        width: 100vw;
+        height: 200vh;
+    }
+    ._1 .info_text .title_text{
+        background: #C0C0C0;
+        color: #432f30;
+        position: relative;
+        font-size: 1rem;
+        height: 16vh;
+        text-align: center;
+        display: flex;
+        width: 68.75vw;
+        justify-content: center;
+        font-family: "Oxygen";
+    }
+    ._1 .info_text .title_text h1 {
+        font-size: 1.5rem;
+        position: relative;
+        top: 1%;
+        left: 90%;
+        white-space: nowrap;
+    }
+    ._1 .info_text  span{
+        position: relative;
+        top: 50px;
+        left: 7%;
+        display: flex;
+        font-weight: 300;
+        font-size: 2.5rem;
+    }  
+    ._2 {
+        position: absolute;
+        left: 20px;
+        top: 70%;
+        height: 590px;
+    } 
+    .patt1{
+        display: none;
+    }   
+    .patt2{display: none;}
+
+    ._2 img{
+        margin-left: -20px;
+        position: relative;
+
+        top: 20px;
+        width: 100vw;
+        height: 50vh;
+        border: 0 2px 0 2px #222 solid;
+        z-index: 3;
+    }
+
+    .sec_2 .items{
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec_2 .item{
+        border: 1px rgb(104, 3, 3) double;
+        background: #C0C0C0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-around; */
+        width: 100vw;
+        height: 60%;
+        max-height: 100%;
+        transition: all ease-out 4s;
+    }
+    .sec_2 .item:hover .img-box{
+        /* height: 50%; */
+        height: inherit;
+        /* box-shadow: 2px 2x 5px #222; */
+    }
+    .sec_2 .item:hover .img-box img {
+       position: relative;
+       top: inherit;
+       /* height: 8vh; */
+       box-shadow: 2px 2x 5px #222;
+    }
+    .sec_3{
+        width: 100vw;
+        height: 252vh;
+        /* height: 100%; */
+    }
+
+    .sec_3 .yoda_box{
+        background: rgb(33, 95, 24);
+        background:     #8c9383;
+        width: 100vw;
+        height: 100vh;
+    }
+    .yoda_box .yoda_img{
+        top: 55%;
+        left: 10%;
+    }
+    .patt3 {
+        position: relative;
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .patt3 .patt_left{
+        position: relative;
+        top: 100%;
+        left: 0%;
+        width: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .yoda_mando_box{
+        width: 100vw;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .yoda_mando_box .ym_1{
+        width: 100vw;
+        height: 100vh; 
+    }
+
+
+
+
+
+    .ym_1 .ym_1_text{
+        position: relative;
+        top: 60px;
+        height: 40vh;
+    }
+    .ym_1 .ym_1_text h1{
+        font-size: 1.5rem;
+        white-space: nowrap;
+        text-align: center;
+        font-family: "Oxygen";
+    }
+    
+    .ym_1 .ym_1_text h2{
+        font-size: 3.5rem;
+        font-family: "Oxygen";
+        /* font-family: 'Amiri', serif; */
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        left: 22%;
+    }
+    .ym_1 .ym_1_text span{
+        font-size: 4rem;
+        position: relative;
+        left: 44%;
+        text-align: center;
+    }
+    .ym_1 .ym_1_text h3{
+        font-size: 4.55rem;
+        text-align: center;
+        /* font-family: 'Amiri', serif; */
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+     
+    .ym_2{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        width: 100vw;
+        height: 65vh;
+        color: #000000;
+    }
+    .ym_2 .ym_2_img{
+        position: relative;
+        top: 0px;
+        width: 100vw;
+        height: 65vh;
+        /* border-top: 2px #222 solid;
+        border-bottom: 2px rgb(197, 0, 0) solid; */
+    }
+    .ym_2 .ym_2_img img{
+        width: 100vw;
+        height: 65vh;
+    }
+
+    .ym_3 {
+        width: 100vw;
+        /* border: 1px rgb(7, 3, 3) solid; */
+        height: 100vh;
+        background: #432f30;
+    }
+    .ym_3 .ym_text{
+        margin: 20px;
+        
+    }
+    .ym_3 .ym_text .ym_p p{ 
+        font-size: 1rem;
+        text-align: justify;
+        word-spacing: 9px;
+        letter-spacing: 1.6px;
+        line-height: 1.5;
+        color: #C0C0C0;
+    }
+
+
+    footer{
+        position: relative;
+        top: 280px;
+        background: #C0C0C0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -20%;
+    }
+    footer ul li{
+        margin: 14px;
+    }
+    footer h2{
+        color: rgb(0, 0, 0);
+        position:absolute;
+        top: 60%;
+        left: 0px;
+        text-align: center;
+        font-size: 9px;
+        font-weight: 500;
+    }
+
+
+
+
+}
+.burger{
+    position: absolute;
+    /* right: 35px; */
+    /* right: 80%; */
+    /* right: 40%; */
+    display: none;
+    cursor: pointer;
+    background: #432f30;
+    width: 11%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px white solid;
+}
+.burger .line{
+    background: #c0c0c0;
+    margin: 6px;
+    width: 24px;
+    height: 2px;
+}
+
+
